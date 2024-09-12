@@ -1,0 +1,2 @@
+SELECT "value" FROM "Coal_Production_Exajoules" WHERE "country_name" = 'Mexico' AND "year" = 2016;
+SELECT SUM(value) AS total_coal_production FROM Coal_Production_Exajoules WHERE country_name = 'Canada';
